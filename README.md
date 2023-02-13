@@ -1,4 +1,5 @@
 # sudoku-solver
 
-##Output
+Output
+
 ![output](/image/output.png)
