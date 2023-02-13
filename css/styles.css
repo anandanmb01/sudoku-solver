@@ -1,0 +1,43 @@
+
+.background-image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    /* background-image: url('https://i.imgur.com/lL6tQfy.png'); */
+    background-image: url("/image/background01.png");
+    width: 100vw;
+    height: 100vh;
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+  }
+  
+  .content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+.container-fluid {
+  min-height: 100vh;
+}
+.row {
+  min-width: 100vw;
+}
+.container-fluid h1 {
+  /* color: whitesmoke; */
+  font-size: 4em;
+}
+.heading{
+    font-family: 'Orbitron', sans-serif;
+}
+.navbar{
+    height: 100px;
+}
